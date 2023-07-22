@@ -8,6 +8,10 @@
   cursor: pointer;
 }
 
+.navbar-brand {
+  margin-left: -40px;
+}
+
 .btn-white {
   background-color: var(--color-white) !important;
   color: var(--color-black) !important;
