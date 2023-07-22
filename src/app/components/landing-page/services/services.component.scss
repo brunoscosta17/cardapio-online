@@ -1,0 +1,42 @@
+.services {
+  padding: 100px 0;
+}
+
+.background-services {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 500px;
+  background-image: url('../../../../assets/img/bg-icons-2.png');
+}
+
+.hint-title b {
+  color: var(--color-primary) !important;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.title {
+  color: var(--color-black);
+  font-size: 40px;
+  margin: 5px 0 30px 0;
+}
+
+.card-icon {
+  padding-bottom: 5px;
+  height: 150px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-text span {
+  color: var(--color-text-out) !important;
+  font-size: 15px;
+}
+
+.card-icon img {
+
+}
