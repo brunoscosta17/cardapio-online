@@ -1,0 +1,122 @@
+.menu-background {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 500px;
+  background-image: url('../../../../assets/img/bg-icons-1.png');
+}
+
+.menu {
+  padding: 50px 0 150px 0;
+}
+
+.menu .container {
+  position: relative;
+}
+
+.row .container-menu a {
+  margin-left: 1rem;
+  border-radius: 15px;
+  border: none;
+}
+
+.card-item {
+  height: 360px;
+  border: none;
+  box-shadow: 0 10px 15px -3px rgba(0,0,0,0.2) !important;
+  transition: all 0.2s ease;
+}
+
+.card-item .product-img img {
+  width: 100%;
+  border-radius: 11px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card-item .product-title {
+  color: var(--color-black);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  height: 40px;
+  margin: 1rem 0 0 0 ;
+}
+
+.card-item .product-price {
+  color: var(--color-primary) !important;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-item .add-cart {
+  display: none;
+  text-align: center;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-minus {
+  color: var(--color-black-heavy);
+  padding: 5px 7px;
+  border: 2px solid var(--color-black-heavy);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-number-items {
+  color: var(--color-black-heavy);
+  padding: 5px 7px;
+  border-top: 2px solid var(--color-black-heavy);
+  border-bottom: 2px solid var(--color-black-heavy);
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-plus {
+  color: var(--color-black-heavy);
+  padding: 5px 7px;
+  border: 2px solid var(--color-black-heavy);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-add {
+  padding: 4px 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-left: 1rem;
+}
+
+.card-item:hover {
+  box-shadow: 0 10px 15px -3px rgba(0,0,0,0.4) !important;
+  background-color: var(--color-primary);
+}
+
+.card-item:hover .product-title {
+  display: none;
+}
+
+.card-item:hover .product-price {
+  color: var(--color-white) !important;
+  margin-top: 1rem;
+}
+
+.card-item:hover .btn-add {
+  background-color: var(--color-white) !important;
+  color: var(--color-primary) !important;
+}
+
+.card-item:hover .add-cart {
+  display: flex;
+}
+
+// .add-cart::ng-deep .btn-add {
+//   color: var(--color-white) !important;
+//   background-color: var(--color-black) !important;
+// }
