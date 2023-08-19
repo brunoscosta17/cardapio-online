@@ -1,0 +1,101 @@
+.testimonials-background {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 500px;
+  background-image: url('../../../../assets/img/bg-icons-1.png');
+}
+
+.container {
+  margin-bottom: 150px;
+  position: relative;
+  // padding: 100px 0 150px 0;
+}
+
+.testimonials-card {
+  height: 390px;
+  width: 390px;
+  border-radius: 120px;
+  background-color: var(--color-secondary);
+  position: absolute;
+  left: 60;
+}
+
+.container .row .banner-img {
+  position: relative;
+  margin-top: 80px;
+}
+
+.container .row .banner-img img {
+  width: 100%;
+  bottom: 0;
+}
+
+.container .container-testimonial-data {
+  display: flex;
+}
+
+.testimonial {
+  margin-top: 70px;
+}
+
+.testimonial-img {
+  width: 65px;
+  height: 65px;
+  background-color: var(--color-white);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50px;
+  margin-right: 15px;
+}
+
+#testimonial-1 .testimonial-img {
+  background-image: url(../../../../assets/img/diego.jpg);
+  background-size: cover;
+}
+
+#testimonial-2 .testimonial-img {
+  background-image: url(../../../../assets/img/ana.jpg);
+  background-size: cover;
+}
+
+#testimonial-3 .testimonial-img {
+  background-image: url(../../../../assets/img/joao.jpg);
+  background-size: cover;
+}
+
+.testimonial-name {
+  color: var(--color-black);
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.testimonial-rate {
+  color: var(--color-primary) !important;
+}
+
+.testimonial-text {
+  display: flex;
+  font-size: 1rem;
+  color: var(--color-black);
+}
+
+.testimonial-text fa-icon {
+  font-size: 2rem;
+  color: var(--color-primary);
+}
+
+.testimonial-text fa-icon:first-child {
+  padding: 0 40px 0 10px;
+}
+
+.testimonial-text fa-icon:last-child {
+  padding: 0 0 0 40px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.testimonial-text span {
+  margin-top: .5rem;
+}
